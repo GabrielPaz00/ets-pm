@@ -1,11 +1,36 @@
+# Android & Gradle
 *.iml
-.gradle
-.idea
-.DS_Store
-build
-captures
-.externalNativeBuild
-.cxx
+.gradle/
+build/
+*/build/
 local.properties
-xcuserdata
-iosApp
+
+# IntelliJ/Android Studio
+.idea/
+*.ipr
+*.iws
+*.bak
+
+# Kotlin Multiplatform Artifacts
+.kotlinc/
+*.class
+*.jar
+*.kotlin_module
+*.bin
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jetpack Compose Preview
+captures/
+
+# Logs
+*.log
+
+# Misc
+out/
+gen/
+
+#IOS#
+/iosApp/
