@@ -136,7 +136,7 @@ fun MainCard() {
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
             .padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp)
+        verticalArrangement = Arrangement.Center
     ) {
 
         // Botón para activar la cámara y solicitar permisos
