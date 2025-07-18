@@ -42,7 +42,11 @@ android {
 
 dependencies {
     implementation(projects.shared)
-    implementation("com.alialbaali.kamel:kamel-image:0.5.0")
+
+        implementation("media.kamel:kamel-image:1.0.0")
+        implementation("media.kamel:kamel-image-compose:1.0.0")
+
+
     // Compose UI y Material3
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling.preview)
@@ -51,6 +55,7 @@ dependencies {
     implementation(libs.androidx.compiler)
     implementation(libs.androidx.navigation.runtime.android)
     implementation(libs.androidx.navigation.compose.android)
+    implementation(libs.androidx.media3.exoplayer)
 
     // Camera
     val cameraxVersion = "1.1.0"
