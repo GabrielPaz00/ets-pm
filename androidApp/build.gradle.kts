@@ -42,7 +42,7 @@ android {
 
 dependencies {
     implementation(projects.shared)
-
+    implementation("com.alialbaali.kamel:kamel-image:0.5.0")
     // Compose UI y Material3
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling.preview)
