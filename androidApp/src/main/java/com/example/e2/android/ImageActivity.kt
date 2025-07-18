@@ -11,11 +11,9 @@ import androidx.navigation.NavHostController
 
 
 @Composable
-fun MainScreenImage(navController: NavHostController) {
+fun MainScreenImage() {
     Column(modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
-        Text("Pantalla de Inicio")
-        Button(onClick = { navController.navigate("detalle") }) {
-            Text("Ir a Detalle")
-        }
+
     }
 }
+

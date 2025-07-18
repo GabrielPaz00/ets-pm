@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.camera.core.*
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
@@ -36,7 +37,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun PantallaDetalle(navController: NavHostController) {
-    Column(modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(modifier = Modifier.fillMaxSize().padding(top = 24.dp)
+        , horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
         Text("Pantalla de Detalle")
         Button(onClick = { navController.navigate("foto") }) {
             Text("Volver")
