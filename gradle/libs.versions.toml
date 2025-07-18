@@ -6,6 +6,9 @@ compose = "1.5.4"
 compose-material3 = "1.1.2"
 androidx-activityCompose = "1.8.0"
 compilerVersion = "3.2.0-alpha11"
+navigationComposeJvmstubsVersion = "2.9.2"
+navigationRuntimeAndroidVersion = "2.9.2"
+navigationComposeAndroidVersion = "2.9.2"
 
 [libraries]
 google-accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissionsVersion" }
@@ -17,6 +20,9 @@ compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview"
 compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
 compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
 androidx-compiler = { group = "androidx.databinding", name = "compiler", version.ref = "compilerVersion" }
+androidx-navigation-compose-jvmstubs = { group = "androidx.navigation", name = "navigation-compose-jvmstubs", version.ref = "navigationComposeJvmstubsVersion" }
+androidx-navigation-runtime-android = { group = "androidx.navigation", name = "navigation-runtime-android", version.ref = "navigationRuntimeAndroidVersion" }
+androidx-navigation-compose-android = { group = "androidx.navigation", name = "navigation-compose-android", version.ref = "navigationComposeAndroidVersion" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
