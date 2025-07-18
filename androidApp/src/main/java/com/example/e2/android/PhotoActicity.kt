@@ -92,7 +92,8 @@ fun MainScreenPhoto(navController: NavController,
                 ) {
                     ViewCamara(onImageSaved = { uri ->
                         viewModel.saveURI(uri)
-                        navController.navigate("detalle")
+                        navController.navigate("detalle/${Uri.encode(uri.toString())}")
+
                     })
                 }
             }
